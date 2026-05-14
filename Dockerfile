@@ -1,5 +1,5 @@
 # 🐳 Dockerfile: CareerOps Cloud (Ubuntu Latest)
-FROM ubuntu:latest
+FROM ubuntu:22.04
 
 # Setup Environment
 ENV PORT=7681

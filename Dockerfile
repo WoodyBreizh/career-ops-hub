@@ -47,8 +47,7 @@ RUN set -eux; \
 
 # 6. Final Configuration
 WORKDIR /root/workspace
-RUN echo "cd /root/workspace" >> /root/.bashrc && \
-    echo "neofetch || true" >> /root/.bashrc
+RUN echo "cd /root/workspace" >> /root/.bashrc
 
 EXPOSE 7681
 
